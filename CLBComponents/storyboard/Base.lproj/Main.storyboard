@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cqu-5C-NnJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CLBComponents" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdw-y7-hIy" customClass="CLBBaseButton" customModule="CLBComponents" customModuleProvider="target">
+                                <rect key="frame" x="20" y="308.5" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.4644180608166304" green="0.45625903795094547" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="iZi-WN-3f8"/>
+                                </constraints>
+                                <state key="normal" title="CLB Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rippleEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="rippleLayerColor">
+                                        <color key="value" red="0.30474612765408282" green="0.1751763169908771" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03F-OP-Oak" customClass="CLBBaseFlatButton" customModule="CLBComponents" customModuleProvider="target">
+                                <rect key="frame" x="20" y="366.5" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="E0P-nT-Tje"/>
+                                </constraints>
+                                <state key="normal" title="CLB Flat Button">
+                                    <color key="titleColor" red="0.25094899539999999" green="0.25099846720000002" blue="0.2509458363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSE-3M-Kz8" customClass="CLBGradientButton" customModule="CLBComponents" customModuleProvider="target">
+                                <rect key="frame" x="20" y="414.5" width="335" height="40"/>
+                                <color key="backgroundColor" red="0.017606107520000001" green="0.41192215679999999" blue="0.61143606900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="L16-05-Ukj"/>
+                                </constraints>
+                                <state key="normal" title="CLB Gradient Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rippleEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="rippleLayerColor">
+                                        <color key="value" red="0.017606107520000001" green="0.41192215679999999" blue="0.61143606900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="1" green="0.2983439175" blue="0.21147922350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2s1-Kj-FOW" customClass="CLBTextField" customModule="CLBComponents" customModuleProvider="target">
+                                <rect key="frame" x="20" y="250.5" width="335" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0rG-w3-ZRc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cardHint" value="Place Holder"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Error Message"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClearButton" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftIcon" value="icon_1"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="leftIconTintColor">
+                                        <color key="value" red="0.017606107520000001" green="0.41192215679999999" blue="0.61143606900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftIconWidth">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isLeftClearButton" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftIconHeight">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftClearIconButton" value="clear_icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="leftClearButtonTintColor">
+                                        <color key="value" red="1" green="0.2983439175" blue="0.21147922350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isInfoButton" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="infoIconButton" value="info_icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="infoButtonTintColor">
+                                        <color key="value" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="infoButtonWidth">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="infoButtonHeight">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moe-xe-dnW" customClass="CLBCardSpinner" customModule="CLBComponents" customModuleProvider="target">
+                                <rect key="frame" x="20" y="192.5" width="335" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ii5-4t-omx"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="spinnerTitle" value="Title"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Error Message"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftIcon" value="icon_1"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="leftIconTintColor">
+                                        <color key="value" red="0.30474612769999998" green="0.175176317" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="rightIcon" value="drow_down_icon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="rightIconTintColor">
+                                        <color key="value" red="0.25094899539999999" green="0.25099846720000002" blue="0.2509458363" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightIconWidth">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightIconHeight">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftIconWidth">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftIconHeight">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Uc2-81-qmx">
+                                <rect key="frame" x="8" y="84" width="359" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DA-wA-tT3">
+                                        <rect key="frame" x="0.0" y="0.0" width="109" height="30"/>
+                                        <state key="normal" title="Succes Dialog"/>
+                                        <connections>
+                                            <action selector="ShowSuccessDialog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZV-aS-G40"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeG-Ti-Woi">
+                                        <rect key="frame" x="125" y="0.0" width="109" height="30"/>
+                                        <state key="normal" title="Warning Dialog"/>
+                                        <connections>
+                                            <action selector="ShowWarningDialog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OLw-XM-EH9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4N-5N-G9J">
+                                        <rect key="frame" x="250" y="0.0" width="109" height="30"/>
+                                        <state key="normal" title="Question Dialog"/>
+                                        <connections>
+                                            <action selector="ShowQuestionDialog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2eg-m0-Yeg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rQC-Ip-3p3"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="8Yv-tJ-qTf">
+                                <rect key="frame" x="8" y="122" width="359" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9t-n3-4p6">
+                                        <rect key="frame" x="0.0" y="0.0" width="171.5" height="30"/>
+                                        <state key="normal" title="Error Dialog"/>
+                                        <connections>
+                                            <action selector="ShowErrorDialog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="szg-Ll-Lno"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzu-vN-6ei">
+                                        <rect key="frame" x="187.5" y="0.0" width="171.5" height="30"/>
+                                        <state key="normal" title="Custom Style Dialog"/>
+                                        <connections>
+                                            <action selector="ShowCustomDialog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a00-0L-2Jn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="msW-nQ-Dkj"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TfU-ie-C1y" userLabel="stackChips">
+                                <rect key="frame" x="61" y="176" width="253" height="35"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r41-rf-9Qo" customClass="CLBChipView" customModule="CLBComponents" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="121.5" height="35"/>
+                                        <color key="backgroundColor" red="1" green="0.2983439175" blue="0.21147922350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="ChipView1"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                <color key="value" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTextColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="unSelectedBackgroundColor">
+                                                <color key="value" red="1" green="0.2983439175" blue="0.21147922350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedBackgroundColor">
+                                                <color key="value" red="0.017606107520000001" green="0.41192215679999999" blue="0.61143606900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="unSelectedRippleColor">
+                                                <color key="value" red="0.2882061044" green="0.2882061044" blue="0.2882061044" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedRippleColor">
+                                                <color key="value" red="0.0" green="0.65501719709999995" blue="0.88819569350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XeP-3p-hpc" customClass="CLBChipView" customModule="CLBComponents" customModuleProvider="target">
+                                        <rect key="frame" x="131.5" y="0.0" width="121.5" height="35"/>
+                                        <color key="backgroundColor" red="1" green="0.2983439175" blue="0.21147922350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="text" value="ChipView2"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                <color key="value" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTextColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="unSelectedBackgroundColor">
+                                                <color key="value" red="1" green="0.2983439175" blue="0.21147922350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedBackgroundColor">
+                                                <color key="value" red="0.017606107520000001" green="0.41192215679999999" blue="0.61143606900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="unSelectedRippleColor">
+                                                <color key="value" red="0.2882061044" green="0.2882061044" blue="0.2882061044" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedRippleColor">
+                                                <color key="value" red="0.0" green="0.65501719709999995" blue="0.88819569350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="0rf-kp-pA5"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmo-wL-Yq3">
+                                <rect key="frame" x="87.5" y="504.5" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9tc-83-goa"/>
+                                    <constraint firstAttribute="height" constant="30" id="D74-1g-Op3"/>
+                                </constraints>
+                                <state key="normal" title="Go To Credit Card Page -&gt;"/>
+                                <connections>
+                                    <segue destination="PJ9-6p-4Sa" kind="show" id="83B-ju-B7y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jdw-y7-hIy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2t8-IB-D3c"/>
+                            <constraint firstItem="bSE-3M-Kz8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3X4-Qn-c8T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TfU-ie-C1y" secondAttribute="trailing" constant="61" id="5Gr-bh-XXP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bSE-3M-Kz8" secondAttribute="trailing" constant="20" id="7iG-x6-qtA"/>
+                            <constraint firstItem="Uc2-81-qmx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="DUC-d5-XvA"/>
+                            <constraint firstItem="bSE-3M-Kz8" firstAttribute="top" secondItem="03F-OP-Oak" secondAttribute="bottom" constant="8" id="DX1-5l-iii"/>
+                            <constraint firstItem="8Yv-tJ-qTf" firstAttribute="top" secondItem="Uc2-81-qmx" secondAttribute="bottom" constant="8" id="Dwh-xz-pqv"/>
+                            <constraint firstItem="03F-OP-Oak" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ehs-RC-DRd"/>
+                            <constraint firstItem="jdw-y7-hIy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Iba-ih-VHa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jdw-y7-hIy" secondAttribute="trailing" constant="20" id="LYY-j2-XLH"/>
+                            <constraint firstItem="2s1-Kj-FOW" firstAttribute="top" secondItem="moe-xe-dnW" secondAttribute="bottom" constant="8" id="OmR-Qg-T4z"/>
+                            <constraint firstItem="8Yv-tJ-qTf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="ThK-Ar-deP"/>
+                            <constraint firstItem="03F-OP-Oak" firstAttribute="top" secondItem="jdw-y7-hIy" secondAttribute="bottom" constant="8" id="Yoc-WH-Fxu"/>
+                            <constraint firstItem="pmo-wL-Yq3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZAb-N7-72B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Yv-tJ-qTf" secondAttribute="trailing" constant="8" id="aIx-Vs-rha"/>
+                            <constraint firstItem="TfU-ie-C1y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="amj-v7-ogC"/>
+                            <constraint firstItem="2s1-Kj-FOW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="d2M-P0-Ohw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="moe-xe-dnW" secondAttribute="trailing" constant="20" id="dAn-yd-d9n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uc2-81-qmx" secondAttribute="trailing" constant="8" id="deZ-k8-aT7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2s1-Kj-FOW" secondAttribute="trailing" constant="20" id="fwk-KM-l1h"/>
+                            <constraint firstItem="Uc2-81-qmx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="gnK-ID-9GN"/>
+                            <constraint firstItem="jdw-y7-hIy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lyv-Zh-LTk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="03F-OP-Oak" secondAttribute="trailing" constant="20" id="mN2-mR-bGN"/>
+                            <constraint firstItem="pmo-wL-Yq3" firstAttribute="top" secondItem="bSE-3M-Kz8" secondAttribute="bottom" constant="50" id="pw1-8Y-PTf"/>
+                            <constraint firstItem="moe-xe-dnW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qZy-iD-GMT"/>
+                            <constraint firstItem="TfU-ie-C1y" firstAttribute="top" secondItem="8Yv-tJ-qTf" secondAttribute="bottom" constant="24" id="qax-th-gHa"/>
+                            <constraint firstItem="jdw-y7-hIy" firstAttribute="top" secondItem="2s1-Kj-FOW" secondAttribute="bottom" constant="8" id="uiP-sp-uRK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y0Q-nW-v1P"/>
+                    <connections>
+                        <outlet property="clbCardSpinner" destination="moe-xe-dnW" id="5kE-qQ-F8J"/>
+                        <outlet property="clbChipView1" destination="r41-rf-9Qo" id="XQ1-e9-UgX"/>
+                        <outlet property="clbChipView2" destination="XeP-3p-hpc" id="URS-QE-mmh"/>
+                        <outlet property="clbGradientButton" destination="bSE-3M-Kz8" id="ERm-du-syv"/>
+                        <outlet property="clbTextField" destination="2s1-Kj-FOW" id="ogH-eY-wzA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644" y="-110"/>
+        </scene>
+        <!--Credit Card View Controller-->
+        <scene sceneID="cty-JL-djf">
+            <objects>
+                <viewController id="PJ9-6p-4Sa" customClass="CreditCardViewController" customModule="CLBComponents" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jVl-CA-CtU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNB-av-A0v" customClass="CLBCreditCard" customModule="CLBComponents" customModuleProvider="target">
+                                <rect key="frame" x="32.5" y="96" width="310" height="190"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="AuZ-PW-MTc"/>
+                                    <constraint firstAttribute="height" constant="190" id="c46-vs-cOn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="frontImageBackground" value="image_world_map.png"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="backImageBackground" value="image_world_map.png"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cardNumberText" value="0000000000000000"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cardAdSoyadText" value="Emre Celebi"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cardSonKullanmaTarihiText" value="01.01.2019"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="cardCVCText" value="***"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnP-Yi-qq6">
+                                <rect key="frame" x="127.5" y="302" width="120" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="I6s-g4-6cA"/>
+                                    <constraint firstAttribute="width" constant="120" id="IGl-22-9sl"/>
+                                </constraints>
+                                <state key="normal" title="Flip Credit Card"/>
+                                <connections>
+                                    <action selector="FlipCreditCard:" destination="PJ9-6p-4Sa" eventType="touchUpInside" id="xht-nk-ehT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XnP-Yi-qq6" firstAttribute="top" secondItem="uNB-av-A0v" secondAttribute="bottom" constant="16" id="8hk-Uc-Im6"/>
+                            <constraint firstItem="uNB-av-A0v" firstAttribute="centerX" secondItem="jVl-CA-CtU" secondAttribute="centerX" id="Y6D-a0-ygw"/>
+                            <constraint firstItem="uNB-av-A0v" firstAttribute="top" secondItem="17p-jh-ywY" secondAttribute="top" constant="32" id="ZaW-j1-of7"/>
+                            <constraint firstItem="XnP-Yi-qq6" firstAttribute="centerX" secondItem="jVl-CA-CtU" secondAttribute="centerX" id="r40-9s-uAh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="17p-jh-ywY"/>
+                    </view>
+                    <connections>
+                        <outlet property="clbCreditCard" destination="uNB-av-A0v" id="op8-Ve-T1f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lhR-aS-naZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644" y="617"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8YR-wp-A6U">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Cqu-5C-NnJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MXc-V5-2JQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pQF-BN-Ng8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jyg-86-cjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="-110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clear_icon" width="18" height="18"/>
+        <image name="drow_down_icon" width="100" height="100"/>
+        <image name="icon_1" width="34" height="23"/>
+        <image name="image_world_map.png" width="16" height="16"/>
+        <image name="info_icon" width="100" height="100"/>
+    </resources>
+</document>

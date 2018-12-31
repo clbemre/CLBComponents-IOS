@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4637995AEED3C3C6F05FF85A /* Pods_CLBComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0832434DEEAD2D635B4BFB3F /* Pods_CLBComponents.framework */; };
+		D355102C21DA207E00855119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355102B21DA207E00855119 /* AppDelegate.swift */; };
+		D355102E21DA207E00855119 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355102D21DA207E00855119 /* ViewController.swift */; };
+		D355103121DA207E00855119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D355102F21DA207E00855119 /* Main.storyboard */; };
+		D355103321DA208000855119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D355103221DA208000855119 /* Assets.xcassets */; };
+		D355103621DA208000855119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D355103421DA208000855119 /* LaunchScreen.storyboard */; };
+		D355104121DA227100855119 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355104021DA227100855119 /* ExtensionUIColor.swift */; };
+		D355143B21DA244100855119 /* CLBBaseFlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355143921DA244100855119 /* CLBBaseFlatButton.swift */; };
+		D355143C21DA244100855119 /* CLBBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355143A21DA244100855119 /* CLBBaseButton.swift */; };
+		D355143F21DA247C00855119 /* CLBLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355143E21DA247C00855119 /* CLBLayer.swift */; };
+		D355144221DA26AA00855119 /* CLBGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355144121DA26AA00855119 /* CLBGradientButton.swift */; };
+		D355144521DA26DF00855119 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355144421DA26DF00855119 /* GradientBackground.swift */; };
+		D355145921DA2F1F00855119 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355144921DA2F1F00855119 /* Roboto-Medium.ttf */; };
+		D355145A21DA2F1F00855119 /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355144A21DA2F1F00855119 /* Roboto-BoldCondensed.ttf */; };
+		D355145B21DA2F1F00855119 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355144B21DA2F1F00855119 /* Roboto-ThinItalic.ttf */; };
+		D355145C21DA2F1F00855119 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355144C21DA2F1F00855119 /* Roboto-Light.ttf */; };
+		D355145D21DA2F1F00855119 /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355144D21DA2F1F00855119 /* Roboto-CondensedItalic.ttf */; };
+		D355145E21DA2F1F00855119 /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355144E21DA2F1F00855119 /* Roboto-BoldCondensedItalic.ttf */; };
+		D355145F21DA2F1F00855119 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355144F21DA2F1F00855119 /* Roboto-BlackItalic.ttf */; };
+		D355146021DA2F1F00855119 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145021DA2F1F00855119 /* Roboto-Thin.ttf */; };
+		D355146121DA2F1F00855119 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145121DA2F1F00855119 /* Roboto-MediumItalic.ttf */; };
+		D355146221DA2F1F00855119 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145221DA2F1F00855119 /* Roboto-Black.ttf */; };
+		D355146321DA2F1F00855119 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145321DA2F1F00855119 /* Roboto-LightItalic.ttf */; };
+		D355146421DA2F1F00855119 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145421DA2F1F00855119 /* Roboto-Regular.ttf */; };
+		D355146521DA2F1F00855119 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145521DA2F1F00855119 /* Roboto-BoldItalic.ttf */; };
+		D355146621DA2F1F00855119 /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145621DA2F1F00855119 /* Roboto-Condensed.ttf */; };
+		D355146721DA2F1F00855119 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145721DA2F1F00855119 /* Roboto-Bold.ttf */; };
+		D355146821DA2F1F00855119 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D355145821DA2F1F00855119 /* Roboto-Italic.ttf */; };
+		D355146A21DA304A00855119 /* RobotoFontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355146921DA304A00855119 /* RobotoFontType.swift */; };
+		D355147221DA3B1400855119 /* ExtensionCLBEditText+DelegateActionsMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355146D21DA3B1300855119 /* ExtensionCLBEditText+DelegateActionsMethods.swift */; };
+		D355147321DA3B1400855119 /* ExtensionCLBEditText+SetupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355146E21DA3B1300855119 /* ExtensionCLBEditText+SetupViews.swift */; };
+		D355147421DA3B1400855119 /* ExtensionCLBEditText+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355146F21DA3B1300855119 /* ExtensionCLBEditText+Constraints.swift */; };
+		D355147521DA3B1400855119 /* ExtensionCLBEditText+PropsMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355147021DA3B1400855119 /* ExtensionCLBEditText+PropsMethods.swift */; };
+		D355147621DA3B1400855119 /* ExtensionCLBEditText+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355147121DA3B1400855119 /* ExtensionCLBEditText+Methods.swift */; };
+		D355147821DA3B1B00855119 /* CLBTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355147721DA3B1A00855119 /* CLBTextField.swift */; };
+		D355147A21DA3B5900855119 /* CLBCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355147921DA3B5800855119 /* CLBCardView.swift */; };
+		D355147C21DA3B9E00855119 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355147B21DA3B9D00855119 /* TouchView.swift */; };
+		D355147E21DA3C2600855119 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355147D21DA3C2600855119 /* UITextField+Extensions.swift */; };
+		D355148021DA3C7100855119 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355147F21DA3C7100855119 /* String+Extensions.swift */; };
+		D355148321DA3D1500855119 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355148221DA3D1500855119 /* UIView+Extensions.swift */; };
+		D355148921DA40C500855119 /* ExtensionCardSpinnerView+SetupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355148621DA40C400855119 /* ExtensionCardSpinnerView+SetupViews.swift */; };
+		D355148A21DA40C500855119 /* ExtensionCardSpinnerView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355148721DA40C400855119 /* ExtensionCardSpinnerView+Constraint.swift */; };
+		D355148B21DA40C500855119 /* ExtensionCardSpinnerView+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355148821DA40C500855119 /* ExtensionCardSpinnerView+Methods.swift */; };
+		D355148D21DA40CC00855119 /* CLBCardSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355148C21DA40CC00855119 /* CLBCardSpinner.swift */; };
+		D355148F21DA40F600855119 /* DropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D355148E21DA40F600855119 /* DropDown.framework */; };
+		D355149121DA40F600855119 /* SwiftHEXColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D355149021DA40F600855119 /* SwiftHEXColors.framework */; };
+		D355149521DA489800855119 /* CLBDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355149321DA489700855119 /* CLBDialog.swift */; };
+		D355149621DA489800855119 /* CLBDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = D355149421DA489700855119 /* CLBDialog.xib */; };
+		D355149821DA48DC00855119 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D355149721DA48DC00855119 /* MaterialComponents.framework */; };
+		D355149A21DA48F700855119 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355149921DA48F700855119 /* MaterialButton.swift */; };
+		D355149C21DA4AEA00855119 /* MaterialKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355149B21DA4AEA00855119 /* MaterialKit+Extensions.swift */; };
+		D355149E21DA4B2900855119 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355149D21DA4B2900855119 /* UILabel+Extensions.swift */; };
+		D35514A121DA53AE00855119 /* CLBChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35514A021DA53AE00855119 /* CLBChipView.swift */; };
+		D35514A321DA58AC00855119 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35514A221DA58AC00855119 /* CreditCardViewController.swift */; };
+		D35514A721DA591700855119 /* CLBCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35514A521DA591700855119 /* CLBCreditCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0832434DEEAD2D635B4BFB3F /* Pods_CLBComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLBComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF55E30960B92F01F219117 /* Pods-CLBComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLBComponents.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLBComponents/Pods-CLBComponents.release.xcconfig"; sourceTree = "<group>"; };
+		3612D02EEDBD4E36A2D47106 /* Pods-CLBComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLBComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLBComponents/Pods-CLBComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		D355102821DA207E00855119 /* CLBComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLBComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D355102B21DA207E00855119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D355102D21DA207E00855119 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D355103021DA207E00855119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D355103221DA208000855119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D355103521DA208000855119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D355103721DA208000855119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D355104021DA227100855119 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		D355143921DA244100855119 /* CLBBaseFlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBBaseFlatButton.swift; sourceTree = "<group>"; };
+		D355143A21DA244100855119 /* CLBBaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBBaseButton.swift; sourceTree = "<group>"; };
+		D355143E21DA247C00855119 /* CLBLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBLayer.swift; sourceTree = "<group>"; };
+		D355144121DA26AA00855119 /* CLBGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBGradientButton.swift; sourceTree = "<group>"; };
+		D355144421DA26DF00855119 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		D355144921DA2F1F00855119 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D355144A21DA2F1F00855119 /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		D355144B21DA2F1F00855119 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D355144C21DA2F1F00855119 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		D355144D21DA2F1F00855119 /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		D355144E21DA2F1F00855119 /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		D355144F21DA2F1F00855119 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D355145021DA2F1F00855119 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		D355145121DA2F1F00855119 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D355145221DA2F1F00855119 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		D355145321DA2F1F00855119 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		D355145421DA2F1F00855119 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D355145521DA2F1F00855119 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D355145621DA2F1F00855119 /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		D355145721DA2F1F00855119 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D355145821DA2F1F00855119 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		D355146921DA304A00855119 /* RobotoFontType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotoFontType.swift; sourceTree = "<group>"; };
+		D355146D21DA3B1300855119 /* ExtensionCLBEditText+DelegateActionsMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCLBEditText+DelegateActionsMethods.swift"; sourceTree = "<group>"; };
+		D355146E21DA3B1300855119 /* ExtensionCLBEditText+SetupViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCLBEditText+SetupViews.swift"; sourceTree = "<group>"; };
+		D355146F21DA3B1300855119 /* ExtensionCLBEditText+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCLBEditText+Constraints.swift"; sourceTree = "<group>"; };
+		D355147021DA3B1400855119 /* ExtensionCLBEditText+PropsMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCLBEditText+PropsMethods.swift"; sourceTree = "<group>"; };
+		D355147121DA3B1400855119 /* ExtensionCLBEditText+Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCLBEditText+Methods.swift"; sourceTree = "<group>"; };
+		D355147721DA3B1A00855119 /* CLBTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBTextField.swift; sourceTree = "<group>"; };
+		D355147921DA3B5800855119 /* CLBCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBCardView.swift; sourceTree = "<group>"; };
+		D355147B21DA3B9D00855119 /* TouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
+		D355147D21DA3C2600855119 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		D355147F21DA3C7100855119 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		D355148221DA3D1500855119 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D355148621DA40C400855119 /* ExtensionCardSpinnerView+SetupViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCardSpinnerView+SetupViews.swift"; sourceTree = "<group>"; };
+		D355148721DA40C400855119 /* ExtensionCardSpinnerView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCardSpinnerView+Constraint.swift"; sourceTree = "<group>"; };
+		D355148821DA40C500855119 /* ExtensionCardSpinnerView+Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExtensionCardSpinnerView+Methods.swift"; sourceTree = "<group>"; };
+		D355148C21DA40CC00855119 /* CLBCardSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBCardSpinner.swift; sourceTree = "<group>"; };
+		D355148E21DA40F600855119 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D355149021DA40F600855119 /* SwiftHEXColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftHEXColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D355149321DA489700855119 /* CLBDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBDialog.swift; sourceTree = "<group>"; };
+		D355149421DA489700855119 /* CLBDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLBDialog.xib; sourceTree = "<group>"; };
+		D355149721DA48DC00855119 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D355149921DA48F700855119 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		D355149B21DA4AEA00855119 /* MaterialKit+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaterialKit+Extensions.swift"; sourceTree = "<group>"; };
+		D355149D21DA4B2900855119 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		D35514A021DA53AE00855119 /* CLBChipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBChipView.swift; sourceTree = "<group>"; };
+		D35514A221DA58AC00855119 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		D35514A521DA591700855119 /* CLBCreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBCreditCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D355102521DA207E00855119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D355149821DA48DC00855119 /* MaterialComponents.framework in Frameworks */,
+				D355148F21DA40F600855119 /* DropDown.framework in Frameworks */,
+				D355149121DA40F600855119 /* SwiftHEXColors.framework in Frameworks */,
+				4637995AEED3C3C6F05FF85A /* Pods_CLBComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2138AF5810352F3CAC2DB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3612D02EEDBD4E36A2D47106 /* Pods-CLBComponents.debug.xcconfig */,
+				1FF55E30960B92F01F219117 /* Pods-CLBComponents.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D355101F21DA207E00855119 = {
+			isa = PBXGroup;
+			children = (
+				D355102A21DA207E00855119 /* CLBComponents */,
+				D355102921DA207E00855119 /* Products */,
+				CF2138AF5810352F3CAC2DB9 /* Pods */,
+				D35B55217D796FA37039F122 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D355102921DA207E00855119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D355102821DA207E00855119 /* CLBComponents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D355102A21DA207E00855119 /* CLBComponents */ = {
+			isa = PBXGroup;
+			children = (
+				D355144821DA2EF500855119 /* fonts */,
+				D355102B21DA207E00855119 /* AppDelegate.swift */,
+				D355103F21DA225500855119 /* storyboard */,
+				D355103D21DA223A00855119 /* extension */,
+				D355103E21DA224600855119 /* viewcontroller */,
+				D355104221DA23FA00855119 /* components */,
+				D355103221DA208000855119 /* Assets.xcassets */,
+				D355103721DA208000855119 /* Info.plist */,
+			);
+			path = CLBComponents;
+			sourceTree = "<group>";
+		};
+		D355103D21DA223A00855119 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				D355149B21DA4AEA00855119 /* MaterialKit+Extensions.swift */,
+				D355147D21DA3C2600855119 /* UITextField+Extensions.swift */,
+				D355104021DA227100855119 /* ExtensionUIColor.swift */,
+				D355147F21DA3C7100855119 /* String+Extensions.swift */,
+				D355148221DA3D1500855119 /* UIView+Extensions.swift */,
+				D355149D21DA4B2900855119 /* UILabel+Extensions.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		D355103E21DA224600855119 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				D355102D21DA207E00855119 /* ViewController.swift */,
+				D35514A221DA58AC00855119 /* CreditCardViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		D355103F21DA225500855119 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D355102F21DA207E00855119 /* Main.storyboard */,
+				D355103421DA208000855119 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		D355104221DA23FA00855119 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D355143D21DA247400855119 /* viewhelper */,
+				D35514A421DA58F200855119 /* clbcreditcard */,
+				D355149F21DA53A400855119 /* clbchipview */,
+				D355143821DA243500855119 /* clbbutton */,
+				D355144021DA269600855119 /* clbgradientbutton */,
+				D355146B21DA3AE500855119 /* clbedittext */,
+				D355148421DA409000855119 /* clbspinner */,
+				D355149221DA487F00855119 /* clbdialog */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		D355143821DA243500855119 /* clbbutton */ = {
+			isa = PBXGroup;
+			children = (
+				D355143A21DA244100855119 /* CLBBaseButton.swift */,
+				D355143921DA244100855119 /* CLBBaseFlatButton.swift */,
+			);
+			path = clbbutton;
+			sourceTree = "<group>";
+		};
+		D355143D21DA247400855119 /* viewhelper */ = {
+			isa = PBXGroup;
+			children = (
+				D355147B21DA3B9D00855119 /* TouchView.swift */,
+				D355147921DA3B5800855119 /* CLBCardView.swift */,
+				D355143E21DA247C00855119 /* CLBLayer.swift */,
+				D355144421DA26DF00855119 /* GradientBackground.swift */,
+				D355146921DA304A00855119 /* RobotoFontType.swift */,
+			);
+			path = viewhelper;
+			sourceTree = "<group>";
+		};
+		D355144021DA269600855119 /* clbgradientbutton */ = {
+			isa = PBXGroup;
+			children = (
+				D355144121DA26AA00855119 /* CLBGradientButton.swift */,
+			);
+			path = clbgradientbutton;
+			sourceTree = "<group>";
+		};
+		D355144821DA2EF500855119 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D355145221DA2F1F00855119 /* Roboto-Black.ttf */,
+				D355144F21DA2F1F00855119 /* Roboto-BlackItalic.ttf */,
+				D355145721DA2F1F00855119 /* Roboto-Bold.ttf */,
+				D355144A21DA2F1F00855119 /* Roboto-BoldCondensed.ttf */,
+				D355144E21DA2F1F00855119 /* Roboto-BoldCondensedItalic.ttf */,
+				D355145521DA2F1F00855119 /* Roboto-BoldItalic.ttf */,
+				D355145621DA2F1F00855119 /* Roboto-Condensed.ttf */,
+				D355144D21DA2F1F00855119 /* Roboto-CondensedItalic.ttf */,
+				D355145821DA2F1F00855119 /* Roboto-Italic.ttf */,
+				D355144C21DA2F1F00855119 /* Roboto-Light.ttf */,
+				D355145321DA2F1F00855119 /* Roboto-LightItalic.ttf */,
+				D355144921DA2F1F00855119 /* Roboto-Medium.ttf */,
+				D355145121DA2F1F00855119 /* Roboto-MediumItalic.ttf */,
+				D355145421DA2F1F00855119 /* Roboto-Regular.ttf */,
+				D355145021DA2F1F00855119 /* Roboto-Thin.ttf */,
+				D355144B21DA2F1F00855119 /* Roboto-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D355146B21DA3AE500855119 /* clbedittext */ = {
+			isa = PBXGroup;
+			children = (
+				D355146C21DA3B0400855119 /* extensions */,
+				D355147721DA3B1A00855119 /* CLBTextField.swift */,
+			);
+			path = clbedittext;
+			sourceTree = "<group>";
+		};
+		D355146C21DA3B0400855119 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D355146F21DA3B1300855119 /* ExtensionCLBEditText+Constraints.swift */,
+				D355146D21DA3B1300855119 /* ExtensionCLBEditText+DelegateActionsMethods.swift */,
+				D355147121DA3B1400855119 /* ExtensionCLBEditText+Methods.swift */,
+				D355147021DA3B1400855119 /* ExtensionCLBEditText+PropsMethods.swift */,
+				D355146E21DA3B1300855119 /* ExtensionCLBEditText+SetupViews.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		D355148421DA409000855119 /* clbspinner */ = {
+			isa = PBXGroup;
+			children = (
+				D355148521DA40B700855119 /* extensions */,
+				D355148C21DA40CC00855119 /* CLBCardSpinner.swift */,
+			);
+			path = clbspinner;
+			sourceTree = "<group>";
+		};
+		D355148521DA40B700855119 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D355148721DA40C400855119 /* ExtensionCardSpinnerView+Constraint.swift */,
+				D355148821DA40C500855119 /* ExtensionCardSpinnerView+Methods.swift */,
+				D355148621DA40C400855119 /* ExtensionCardSpinnerView+SetupViews.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		D355149221DA487F00855119 /* clbdialog */ = {
+			isa = PBXGroup;
+			children = (
+				D355149921DA48F700855119 /* MaterialButton.swift */,
+				D355149321DA489700855119 /* CLBDialog.swift */,
+				D355149421DA489700855119 /* CLBDialog.xib */,
+			);
+			path = clbdialog;
+			sourceTree = "<group>";
+		};
+		D355149F21DA53A400855119 /* clbchipview */ = {
+			isa = PBXGroup;
+			children = (
+				D35514A021DA53AE00855119 /* CLBChipView.swift */,
+			);
+			path = clbchipview;
+			sourceTree = "<group>";
+		};
+		D35514A421DA58F200855119 /* clbcreditcard */ = {
+			isa = PBXGroup;
+			children = (
+				D35514A521DA591700855119 /* CLBCreditCard.swift */,
+			);
+			path = clbcreditcard;
+			sourceTree = "<group>";
+		};
+		D35B55217D796FA37039F122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D355149721DA48DC00855119 /* MaterialComponents.framework */,
+				D355148E21DA40F600855119 /* DropDown.framework */,
+				D355149021DA40F600855119 /* SwiftHEXColors.framework */,
+				0832434DEEAD2D635B4BFB3F /* Pods_CLBComponents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D355102721DA207E00855119 /* CLBComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D355103A21DA208000855119 /* Build configuration list for PBXNativeTarget "CLBComponents" */;
+			buildPhases = (
+				131331609086309B715FC6A0 /* [CP] Check Pods Manifest.lock */,
+				D355102421DA207E00855119 /* Sources */,
+				D355102521DA207E00855119 /* Frameworks */,
+				D355102621DA207E00855119 /* Resources */,
+				E3B93571DB42936374822D2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLBComponents;
+			productName = CLBComponents;
+			productReference = D355102821DA207E00855119 /* CLBComponents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D355102021DA207E00855119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cLb;
+				TargetAttributes = {
+					D355102721DA207E00855119 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D355102321DA207E00855119 /* Build configuration list for PBXProject "CLBComponents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = D355101F21DA207E00855119;
+			productRefGroup = D355102921DA207E00855119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D355102721DA207E00855119 /* CLBComponents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D355102621DA207E00855119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D355146621DA2F1F00855119 /* Roboto-Condensed.ttf in Resources */,
+				D355145B21DA2F1F00855119 /* Roboto-ThinItalic.ttf in Resources */,
+				D355145D21DA2F1F00855119 /* Roboto-CondensedItalic.ttf in Resources */,
+				D355146321DA2F1F00855119 /* Roboto-LightItalic.ttf in Resources */,
+				D355145921DA2F1F00855119 /* Roboto-Medium.ttf in Resources */,
+				D355103621DA208000855119 /* LaunchScreen.storyboard in Resources */,
+				D355146121DA2F1F00855119 /* Roboto-MediumItalic.ttf in Resources */,
+				D355146021DA2F1F00855119 /* Roboto-Thin.ttf in Resources */,
+				D355146821DA2F1F00855119 /* Roboto-Italic.ttf in Resources */,
+				D355145A21DA2F1F00855119 /* Roboto-BoldCondensed.ttf in Resources */,
+				D355145C21DA2F1F00855119 /* Roboto-Light.ttf in Resources */,
+				D355103321DA208000855119 /* Assets.xcassets in Resources */,
+				D355146521DA2F1F00855119 /* Roboto-BoldItalic.ttf in Resources */,
+				D355146221DA2F1F00855119 /* Roboto-Black.ttf in Resources */,
+				D355145F21DA2F1F00855119 /* Roboto-BlackItalic.ttf in Resources */,
+				D355149621DA489800855119 /* CLBDialog.xib in Resources */,
+				D355146721DA2F1F00855119 /* Roboto-Bold.ttf in Resources */,
+				D355146421DA2F1F00855119 /* Roboto-Regular.ttf in Resources */,
+				D355103121DA207E00855119 /* Main.storyboard in Resources */,
+				D355145E21DA2F1F00855119 /* Roboto-BoldCondensedItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		131331609086309B715FC6A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLBComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B93571DB42936374822D2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CLBComponents/Pods-CLBComponents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CLBComponents/Pods-CLBComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D355102421DA207E00855119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D355148321DA3D1500855119 /* UIView+Extensions.swift in Sources */,
+				D355148021DA3C7100855119 /* String+Extensions.swift in Sources */,
+				D355149C21DA4AEA00855119 /* MaterialKit+Extensions.swift in Sources */,
+				D355147421DA3B1400855119 /* ExtensionCLBEditText+Constraints.swift in Sources */,
+				D355149521DA489800855119 /* CLBDialog.swift in Sources */,
+				D355143C21DA244100855119 /* CLBBaseButton.swift in Sources */,
+				D355147A21DA3B5900855119 /* CLBCardView.swift in Sources */,
+				D355147521DA3B1400855119 /* ExtensionCLBEditText+PropsMethods.swift in Sources */,
+				D355146A21DA304A00855119 /* RobotoFontType.swift in Sources */,
+				D355147321DA3B1400855119 /* ExtensionCLBEditText+SetupViews.swift in Sources */,
+				D355144521DA26DF00855119 /* GradientBackground.swift in Sources */,
+				D355148D21DA40CC00855119 /* CLBCardSpinner.swift in Sources */,
+				D355147821DA3B1B00855119 /* CLBTextField.swift in Sources */,
+				D355147E21DA3C2600855119 /* UITextField+Extensions.swift in Sources */,
+				D355102E21DA207E00855119 /* ViewController.swift in Sources */,
+				D355149A21DA48F700855119 /* MaterialButton.swift in Sources */,
+				D35514A721DA591700855119 /* CLBCreditCard.swift in Sources */,
+				D355143B21DA244100855119 /* CLBBaseFlatButton.swift in Sources */,
+				D355104121DA227100855119 /* ExtensionUIColor.swift in Sources */,
+				D355147221DA3B1400855119 /* ExtensionCLBEditText+DelegateActionsMethods.swift in Sources */,
+				D355102C21DA207E00855119 /* AppDelegate.swift in Sources */,
+				D355149E21DA4B2900855119 /* UILabel+Extensions.swift in Sources */,
+				D355143F21DA247C00855119 /* CLBLayer.swift in Sources */,
+				D355148A21DA40C500855119 /* ExtensionCardSpinnerView+Constraint.swift in Sources */,
+				D355147621DA3B1400855119 /* ExtensionCLBEditText+Methods.swift in Sources */,
+				D35514A121DA53AE00855119 /* CLBChipView.swift in Sources */,
+				D355147C21DA3B9E00855119 /* TouchView.swift in Sources */,
+				D355148B21DA40C500855119 /* ExtensionCardSpinnerView+Methods.swift in Sources */,
+				D355144221DA26AA00855119 /* CLBGradientButton.swift in Sources */,
+				D355148921DA40C500855119 /* ExtensionCardSpinnerView+SetupViews.swift in Sources */,
+				D35514A321DA58AC00855119 /* CreditCardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D355102F21DA207E00855119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D355103021DA207E00855119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D355103421DA208000855119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D355103521DA208000855119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D355103821DA208000855119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D355103921DA208000855119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D355103B21DA208000855119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3612D02EEDBD4E36A2D47106 /* Pods-CLBComponents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 942GD4D555;
+				INFOPLIST_FILE = CLBComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clb.CLBComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D355103C21DA208000855119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF55E30960B92F01F219117 /* Pods-CLBComponents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 942GD4D555;
+				INFOPLIST_FILE = CLBComponents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clb.CLBComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D355102321DA207E00855119 /* Build configuration list for PBXProject "CLBComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D355103821DA208000855119 /* Debug */,
+				D355103921DA208000855119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D355103A21DA208000855119 /* Build configuration list for PBXNativeTarget "CLBComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D355103B21DA208000855119 /* Debug */,
+				D355103C21DA208000855119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D355102021DA207E00855119 /* Project object */;
+}

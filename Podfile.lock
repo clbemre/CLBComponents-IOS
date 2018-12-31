@@ -1,0 +1,81 @@
+PODS:
+  - DropDown (2.3.12)
+  - MaterialComponents/Buttons (54.13.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+Extensions (54.13.0)":
+    - "MaterialComponents/Buttons+Extensions/ButtonThemer (= 54.13.0)"
+    - "MaterialComponents/Buttons+Extensions/ColorThemer (= 54.13.0)"
+    - "MaterialComponents/Buttons+Extensions/TitleColorAccessibilityMutator (= 54.13.0)"
+    - "MaterialComponents/Buttons+Extensions/TypographyThemer (= 54.13.0)"
+  - "MaterialComponents/Buttons+Extensions/ButtonThemer (54.13.0)":
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+Extensions/ColorThemer"
+    - "MaterialComponents/Buttons+Extensions/TypographyThemer"
+  - "MaterialComponents/Buttons+Extensions/ColorThemer (54.13.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Buttons+Extensions/TitleColorAccessibilityMutator (54.13.0)":
+    - MaterialComponents/Buttons
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+Extensions/TypographyThemer (54.13.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Cards (54.13.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Ink (54.13.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (54.13.0)
+  - MaterialComponents/private/Icons/Base (54.13.0)
+  - MaterialComponents/private/Icons/ic_check_circle (54.13.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Math (54.13.0)
+  - MaterialComponents/private/Shapes (54.13.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/schemes/Color (54.13.0)
+  - MaterialComponents/schemes/Typography (54.13.0)
+  - MaterialComponents/ShadowElevations (54.13.0)
+  - MaterialComponents/ShadowLayer (54.13.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Typography (54.13.0):
+    - MaterialComponents/private/Application
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - SwiftHEXColors (1.2.0)
+
+DEPENDENCIES:
+  - DropDown
+  - MaterialComponents/Buttons
+  - "MaterialComponents/Buttons+Extensions"
+  - MaterialComponents/Cards
+  - SwiftHEXColors
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DropDown
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - SwiftHEXColors
+
+SPEC CHECKSUMS:
+  DropDown: 0bcc278799ec11a3d34ce1aac9367fbbaf5423d9
+  MaterialComponents: 3399c262334c35e4994a7b25ad1e9a3ce48dce07
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  SwiftHEXColors: a4ebe93a70890a9fa124e205dd785cc7552273b4
+
+PODFILE CHECKSUM: 8dd17d92f6cc0146fe8e109f62a1e63b6d140f94
+
+COCOAPODS: 1.5.3
